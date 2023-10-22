@@ -103,9 +103,16 @@ ul li:not(:last-child) {
     background-repeat: no-repeat
 }
 
+/* Header bar */
 #wrap > nav:nth-child(4) {
     visibility: hidden;
     background: transparent !important;
+}
+
+
+/* Warning message */
+#strong {
+    visibility: hidden;
 }
 
 nav {

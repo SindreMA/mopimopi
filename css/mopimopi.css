@@ -110,14 +110,14 @@ ul li:not(:last-child) {
 
 /* Header bar */
 #wrap > nav:nth-child(4) {
-    visibility: hidden;
+    display: none;
     background: transparent !important;
 }
 
 
 /* Warning message */
 #strong {
-    visibility: hidden;
+    display: none;
 }
 #tip {
     display: none;

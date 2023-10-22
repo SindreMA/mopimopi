@@ -103,28 +103,6 @@ ul li:not(:last-child) {
     background-repeat: no-repeat
 }
 
-/* Dps header */
-#DPSHeader {
-    display: none;    
-}
-
-/* Header bar */
-#wrap > nav:nth-child(4) {
-    display: none;
-    background: transparent !important;
-}
-
-
-/* Warning message */
-#strong {
-    display: none;
-}
-#tip {
-    display: none;
-}
-#notice {
-    display: none;
-}
 
 nav {
     position: relative;
@@ -845,4 +823,53 @@ input[type="file"] {
     visibility: hidden;
     width: 0;
     height: 0
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Dps header */
+#DPSHeader {
+    display: none;    
+}
+
+/* Header bar */
+#wrap > nav:nth-child(4) {
+    display: none;
+    background: transparent !important;
+}
+
+/* Warning message */
+#strong {
+    display: none;
+}
+#tip {
+    display: none;
+}
+#content > div:nth-child(3) {
+    display: none;
+}
+
+/* To force bottom first */
+#content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }

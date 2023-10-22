@@ -853,6 +853,7 @@ input[type="file"] {
 /* Header bar */
 #wrap > nav:nth-child(4) {
     display: none;
+    visibility: hidden;
     background: transparent !important;
 }
 

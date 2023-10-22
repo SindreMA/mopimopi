@@ -23,89 +23,8 @@
 </head>
 <body>
     <div id="wrap">
-        <div class="dropdown" style="display: none; position: absolute; width:100%; height:100%;">
-            <div id="gradU" style="display: none;"></div>
-            <div id="gradD" style="display: none;"></div>
-            <ul></ul>
-        </div>
-        <div id="blackBg" style="display: none;"></div>
-        <div id="whiteBg" style="display: none;"></div>
-        <nav name="main">
-            <table name="ACT_2line">
-                <tr>
-                    <td rowspan="2" name="time"></td>
-                    <td name="target"></td>
-                </tr>
-                <tr>
-                    <td name="rps"></td>
-                </tr>
-            </table>
-            <table name="ACT_1line" style="display:none;">
-                <tr>
-                    <td name="time">00:00</td>
-                    <td name="target"></td>
-                    <td name="rps"></td>
-                </tr>
-            </table>
-            <div class="right top btn_wrap">
-                <div name="Capture" class="btn flex" style="display: none" onclick="button('Capture')">
-                    <i class="material-icons">camera</i>
-                </div>
-                <div name="History" class="btn flex" style="display: none" onclick="button('History')">
-                    <i class="material-icons">history</i>
-                </div>
-                <div name="RequestEnd" class="btn flex" style="display: none" onclick="button('RequestEnd')">
-                    <i class="material-icons">timer_off</i>
-                </div>
-                <div name="More" class="btn flex">
-                    <i class="material-icons">more_vert</i>
-                </div>
-            </div>
-        </nav>
-        <nav name="history" style="display: none">
-            <div class="left top btn_wrap">
-                <div name="Back" class="btn flex" onclick="button('Back', 'main')">
-                    <i class="material-icons">arrow_back</i>
-                </div>
-            </div>
-            <table class="nav_title">
-                <tr>
-                    <td></td>
-                </tr>
-            </table>
-            <div class="right top btn_wrap">
-                <div name="Capture" class="btn flex" onclick="button('Capture')">
-                    <i class="material-icons">camera</i>
-                </div>
-            </div>
-        </nav>
-        <nav name="settings" class="shadow" style="display: none">
-            <div class="left top btn_wrap">
-                <div name="Back" class="btn flex" onclick="button('Back', 'main')">
-                    <i class="material-icons">arrow_back</i>
-                </div>
-            </div>
-            <table class="nav_title">
-                <tr>
-                    <td></td>
-                </tr>
-            </table>
-            <div class="right top btn_wrap">
-                <div name="More" class="btn flex">
-                    <input type="checkbox" />
-                    <i class="material-icons">more_vert</i>
-                </div>
-            </div>
-        </nav>
         <div id="content">
-            <div style="flex: 1; width: 100%;" ></div>
-            <span class="shadow" id="tooltip"></span>
-            <div class="toast jam shadow" style="display: none" aria-hidden="true"></div>
-            <div name="notice">
-                <div id="strong"></div>
-                <div id="tip"></div>
-                <div id="update"></div>
-            </div>
+            <div style="flex: 1; width: 100%;" ></div>            
             <div name="main" style="display: none">                
             </div>
             <div name="history" style="display: none">
@@ -126,11 +45,6 @@
                 <div id="HISTORYBody">
                     <div id="HISTORYoldBody"></div>
                 </div>
-            </div>
-            <div name="settings" style="display: none;">
-                <div class="previewArea"></div>
-                <div class="tabArea"></div>
-                <div class="scrollArea"></div>
             </div>
         </div>
     </div>

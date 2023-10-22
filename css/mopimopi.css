@@ -847,7 +847,19 @@ input[type="file"] {
 
 /* Dps header */
 #DPSHeader {
-    display: none;    
+    display: none;
+}
+
+#HPSHeader {
+    display: none;
+}
+
+#DPSBody {
+    margin: 0px !important;
+}
+
+#HPSBody {
+    margin: 0px !important;
 }
 
 /* Header bar */

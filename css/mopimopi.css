@@ -103,6 +103,11 @@ ul li:not(:last-child) {
     background-repeat: no-repeat
 }
 
+/* Dps header */
+#DPSHeader {
+    display: none;    
+}
+
 /* Header bar */
 #wrap > nav:nth-child(4) {
     visibility: hidden;

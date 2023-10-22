@@ -119,6 +119,12 @@ ul li:not(:last-child) {
 #strong {
     visibility: hidden;
 }
+#tip {
+    display: none;
+}
+#notice {
+    display: none;
+}
 
 nav {
     position: relative;

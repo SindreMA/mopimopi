@@ -864,7 +864,7 @@ input[type="file"] {
 #tip {
     display: none;
 }
-#content > div:nth-child(3) {
+#content > div:nth-child(4) {
     display: none;
 }
 
@@ -873,4 +873,5 @@ input[type="file"] {
     display: flex;
     flex-direction: column;
     flex: 1;
+    height: 100vh;
 }
